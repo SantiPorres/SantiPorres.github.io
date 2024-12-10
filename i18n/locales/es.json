@@ -1,0 +1,15 @@
+{
+  "document": {
+    "title": "SantiPorres - Portafolio"
+  },
+  "header": "Hola 👋, Soy",
+  "nav": {
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Trabajemos juntos!"
+  },
+  "hero": {
+    "title": "Doy forma a la tecnología que impulsa tus ideas.",
+    "subtitle": "Desarrollador de Software Full Stack"
+  }
+}
