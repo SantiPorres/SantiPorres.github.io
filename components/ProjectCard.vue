@@ -21,7 +21,7 @@
 
 <script lang="ts" setup>
 import type { Project } from '~/models/project';
-import { PARTICIPATION_TYPES } from '~/utils/participationTypes';
+import { PARTICIPATION_TYPES } from '~/utils/ParticipationTypes';
 
 const { project } = defineProps<{
   project: Project
