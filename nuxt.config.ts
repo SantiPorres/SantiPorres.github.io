@@ -11,4 +11,9 @@ export default defineNuxtConfig({
   },
 
   css: ["~/assets/css/main.css"],
+
+  app: {
+    buildAssetsDir: "/_nuxt/",
+    baseURL: "/",
+  },
 });
