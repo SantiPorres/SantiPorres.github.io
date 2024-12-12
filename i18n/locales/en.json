@@ -2,7 +2,7 @@
   "document": {
     "title": "SantiPorres - Portfolio"
   },
-  "header": "Hello 👋, I'm",
+  "header": "Hi 👋, I'm",
   "nav": {
     "skills": "Skills",
     "projects": "Projects",
@@ -15,5 +15,20 @@
   "projects": {
     "title": "Projects",
     "description": "Here are some of the projects I've worked on."
+  },
+  "participation_types": {
+    "owner": "Owner",
+    "contributed": "Contributed"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Here are some of the technologies, concepts, patterns and architectures I've worked with."
+  },
+  "contact": {
+    "title": "Let's work together!",
+    "description": "I'm always looking for new challenges and opportunities. If you think I can help you, don't hesitate to contact me."
+  },
+  "footer": {
+    "caption_message": "© 2024 Santiago Porres. All rights reserved."
   }
 }

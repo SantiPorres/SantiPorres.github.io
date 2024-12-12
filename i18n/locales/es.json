@@ -11,5 +11,24 @@
   "hero": {
     "title": "Doy forma a la tecnología que impulsa tus ideas.",
     "subtitle": "Desarrollador de Software Full Stack"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Aqui hay algunos de los proyectos en los que he participado."
+  },
+  "participation_types": {
+    "owner": "Propio",
+    "contributed": "Contribuí"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Estas son algunas de las tecnologías, conceptos, patrones y arquitecturas con las que he trabajado."
+  },
+  "contact": {
+    "title": "Trabajemos juntos!",
+    "description": "Siempre esty buscando nuevos retos y oportunidades. Si crees que puedo ayudarte, no dudes en contactarme."
+  },
+  "footer": {
+    "caption_message": "© 2024 Santiago Porres. Todos los derechos reservados."
   }
 }

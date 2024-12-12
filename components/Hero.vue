@@ -6,7 +6,8 @@
       </h1>
       <p class="text-xl lg:text-3xl text-white font-semibold text-center">{{ $t('hero.subtitle') }}</p>
 
-      <button type="button" class="px-4 py-2 w-fit mx-auto rounded-full bg-white text-black">
+      <button type="button"
+        class="px-4 py-2 w-fit mx-auto rounded-full bg-white text-black hover:bg-white/90 duration-300">
         <a href="#contact">{{ $t('nav.contact') }}</a>
       </button>
     </div>
