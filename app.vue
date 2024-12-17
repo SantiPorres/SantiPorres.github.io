@@ -26,3 +26,9 @@ useHead({
   title: t('document.title')
 })
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

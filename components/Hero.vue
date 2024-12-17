@@ -1,5 +1,5 @@
 <template>
-  <section class=" bg-black h-[100vh] w-full flex justify-center items-center relative">
+  <section class=" bg-black h-[100vh] w-full flex justify-center items-center relative" id="hero">
     <div class="mx-auto flex flex-col gap-4 p-8">
       <h1 class="text-4xl lg:text-6xl text-white font-bold text-center">
         {{ $t('hero.title') }}
