@@ -1,7 +1,7 @@
 <template>
   <header class="fixed w-full z-10 flex flex-col">
     <div class="bg-gray-900/90 backdrop-blur-sm shadow-md ">
-      <div class="flex justify-between text-white px-4 items-center lg:px-8 max-w-7xl mx-auto"
+      <div class="header flex justify-between text-white px-4 items-center lg:px-8 max-w-7xl mx-auto"
         :class="isScrollingDown ? 'py-2' : 'py-4'">
         <h1 class="text-xl lg:text-2xl font-semibold">
           <span :class="isScrollingDown ? 'hidden' : ''">{{ $t('header') }}</span> Santiago Porres Restrepo
@@ -97,5 +97,9 @@ onUnmounted(() => {
 .selected-language {
   background-color: #fff;
   color: #000;
+}
+
+.header {
+  transition: padding 0.3s ease-in-out;
 }
 </style>

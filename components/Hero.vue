@@ -12,7 +12,7 @@
       </button>
     </div>
 
-    <button class="absolute bottom-3 text-white animate-bounce">
+    <button class="absolute bottom-6 text-white animate-bounce">
       <a :href="nextSection">
         <svg class="size-6" viewBox="0 0 16 16">
           <path fill="currentColor"
