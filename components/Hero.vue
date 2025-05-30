@@ -1,6 +1,14 @@
 <template>
-  <section class=" bg-black h-[100vh] w-full flex justify-center items-center relative" id="hero">
-    <div class="mx-auto flex flex-col gap-4 p-8">
+  <!-- BACKGROUND -->
+  <section class="relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen w-full flex justify-center items-center" id="hero">
+    
+    <!-- GRID -->
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(120,119,198,0.3)_1px,transparent_1px),linear-gradient(90deg,rgba(120,119,198,0.3)_1px,transparent_1px)] bg-[size:50px_50px] animate-pulse" />
+
+    <!-- MOUSE PARALLAX -->
+    <div class="absolute inset-0 opacity-30" :style="{ background: `radial-gradient(600px circle at ${mouseX}px ${mouseY}px, rgba(255,255,255,0.1), transparent 40%)` }" />
+
+    <div class="mx-auto flex flex-col gap-4 p-8 z-10">
       <h1 class="text-4xl lg:text-6xl text-white font-bold text-center">
         {{ $t('hero.title') }}
       </h1>
@@ -28,6 +36,17 @@
 const { nextSection } = defineProps<{
   nextSection: string
 }>()
+
+const mouseX = ref(0);
+const mouseY = ref(0);
+
+onMounted(() => {
+  window.addEventListener('mousemove', (event) => {
+    mouseX.value = event.clientX
+    mouseY.value = event.clientY
+  })
+})
+
 </script>
 
 <style></style>
